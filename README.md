@@ -20,7 +20,7 @@
 
 ## 📁 Folder Structure
 ```
-KrushiSahay/
+KRUSHISAHAY/
 ├── index.html
 ├── dashboard.html
 ├── login.html
