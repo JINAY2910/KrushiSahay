@@ -45,11 +45,10 @@ KrushiSahay/
 │   ├── register.js
 │   ├── login.js
 ├── Assets/
-│   ├── images/     # All images: certificates, banners, logos, etc.
-│   └── icons/      # All icons used in the site
+│   ├── images/ # All images: certificates, banners, logos, etc.
+│   └── icons/ # All icons used in the site
 ├── README.md
 └── LICENSE
-
 ```
 ---
 
