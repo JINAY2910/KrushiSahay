@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - Krushi Sahay</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <div class="login-wrapper">
+    <div class="login-container">
+      <h1>Krushi Sahay</h1>
+      <h2>Register</h2>
+
+      <form id="registerForm" action="PHP/register.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email or Mobile:</label>
+        <input type="text" id="email" name="email" required>
+        <div id="emailError" class="error"></div>
+
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" id="confirm" name="confirm" required>
+        <div id="passwordError" class="error"></div>
+
+        <input type="submit" value="Register">
+      </form>
+
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+  </div>
+
+  <script src="javascript/register.js"></script>
+</body>
+</html>

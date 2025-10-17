@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Krushi Sahay - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css"> <!-- Slider-specific CSS -->
+</head>
+<body>
+  <div class="container">
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <h1>Krushi Sahay</h1>
+    <a href="PHP/logout.php" class="logout">Logout</a>
+    </header>
+
+    <!-- Sidebar -->
+<aside class="sidebar">
+  <nav>
+    <ul>
+      <li><a href="index.html" style="color: green;"><strong>Home</strong></a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="schemes.html">Government Schemes</a></li>
+      <li><a href="complaint.html">File a Complaint</a></li>
+      <li><a href="weather.html">Weather Forecast</a></li>
+      <li><a href="support.html">Grievance / Support</a></li>
+      <li><a href="faq.html">FAQs</a></li>
+      <li><a href="ecommerce.html">Sell Your Crops</a></li>
+      <li><a href="events.html">Upcoming Events</a></li>
+    </ul>
+  </nav>
+</aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="welcome-box">
+        <h2>Welcome to Krushi Sahay</h2>
+        <p>This platform is designed to help farmers understand and access government schemes, file complaints, and stay updated with the latest agricultural support.</p>
+      </div>
+
+      <h3 class="section-title">🌿 What You Can Do Here</h3>
+
+      <div class="cards">
+        <div class="card">
+          <h4>📊 <a href="dashboard.html">Dashboard</a></h4>
+          <p>Track your complaint statuses, applications, and more in one place.</p>
+        </div>
+        <div class="card">
+          <h4>📜 <a href="schemes.html">Government Schemes</a></h4>
+          <p>Explore all the central and state schemes with step-by-step guidance.</p>
+        </div>
+        <div class="card">
+          <h4>📨 <a href="complaint.html">File a Complaint</a></h4>
+          <p>Facing an issue? Raise a complaint and let the government know.</p>
+        </div>
+        <div class="card">
+          <h4>🌦️ <a href="weather.html">Weather Forecast</a></h4>
+          <p>Check today's weather and plan your farming activities smartly.</p>
+        </div>
+        <div class="card">
+          <h4>🛠️ <a href="support.html">Grievance / Support</a></h4>
+          <p>Get help and support from officials for scheme or technical issues.</p>
+        </div>
+        <div class="card">
+          <h4>📖 <a href="faq.html">FAQs</a></h4>
+          <p>Have questions? Find answers to common doubts about farming, schemes, and usage.</p>
+        </div>
+        <div class="card">
+          <h4>🌾 <a href="ecommerce.html">Sell Your Crops</a></h4>
+          <p>Sell your produce online — skip middlemen, earn better!</p>
+        </div>
+        <div class="card">
+          <h4>📅 <a href="events.html">Upcoming Events</a></h4>
+          <p>Information about upcoming events and farmer profiles.</p>
+        </div>
+      </div>
+
+      <!-- Achievements Slider Section -->
+      <section class="slider-section">
+        <h3 class="section-title">Our Achievements</h3>
+        <div class="slider">
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+
+          <div class="slides">
+            <img src="Assets/images/cert1.jpg" class="slide" alt="Certificate 1">
+            <img src="Assets/images/cert2.jpg" class="slide" alt="Certificate 2">
+            <img src="Assets/images/cert3.jpg" class="slide" alt="Certificate 3">
+            <img src="Assets/images/cert4.jpg" class="slide" alt="Certificate 4">
+          </div>
+
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="javascript/popup.js"></script>
+  <script src="javascript/slider.js"></script>
+</body>
+</html>

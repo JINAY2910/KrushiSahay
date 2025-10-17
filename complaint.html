@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Farmer Complaint Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="default-page">
+
+  <div class="schemes-container">
+    <h2 class="section-title">Raise a Complaint to the Government</h2>
+
+    <!-- ✅ Intro Box -->
+    <div class="welcome-box">
+      <p><strong>Note:</strong> This portal is connected with verified NGOs across India who help escalate farmer issues directly to government authorities. Once you submit, we forward your complaint through our network for resolution.</p>
+    </div>
+
+    <!-- ✅ Certificate -->
+    <div class="certificate-section">
+      <h4 style="margin-bottom: 10px;">Our NGO Partnership Certification</h4>
+      <img src="Assets/images/certificate.jpg" alt="NGO Certificate" class="certificate-img">
+    </div>
+
+    <!-- ✅ Complaint Form -->
+    <div class="scheme-card">
+      <form class="complaint-form" action="PHP/complaint.php" method="POST" enctype="multipart/form-data">
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Mobile Number:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="location">District / Village:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="scheme">Select Scheme:</label>
+        <select id="scheme" name="scheme" required>
+          <option value="">-- Select a Scheme --</option>
+          <option value="PM-KISAN">PM-KISAN</option>
+          <option value="PMFBY">PMFBY</option>
+          <option value="KCC">Kisan Credit Card</option>
+          <option value="Soil Health Card">Soil Health Card</option>
+          <option value="PMKSY">PMKSY</option>
+          <!-- Add more schemes as needed -->
+        </select>
+
+        <label for="complaint">Complaint Description:</label>
+        <textarea id="complaint" name="complaint" rows="5" required></textarea>
+
+        <label for="proof">Upload Proof (optional):</label>
+        <input type="file" id="proof" name="proof" accept=".pdf,.jpg,.jpeg,.png">
+
+        <input type="submit" value="Submit Complaint">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

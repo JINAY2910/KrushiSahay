@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sell Your Crops - Direct Marketplace</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sell-page">
+
+  <div class="sell-container">
+    <h2 class="section-title">Sell Your Crops Directly</h2>
+
+    <div class="sell-welcome-box">
+  <p><strong>Sell directly from your farm to the consumer</strong> — no middlemen involved. Maximize your profit margins.</p>
+</div>
+
+
+    <!-- Crop Listing Form -->
+    <div class="sell-form-card">
+      <h3>Crop Listing Form</h3>
+      <form class="sell-form" action="#" method="POST" enctype="multipart/form-data">
+
+        <label for="crop-name">Crop Name:</label>
+        <input type="text" id="crop-name" name="crop-name" required>
+
+        <label for="quantity">Quantity (in kg):</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <label for="price">Price per kg (in INR):</label>
+        <input type="number" id="price" name="price" required>
+
+        <label for="location">Your Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <label for="image">Upload Crop Image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <input type="submit" value="Submit Crop Listing">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
