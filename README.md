@@ -44,6 +44,7 @@ KrushiSahay/
 │   ├── faq.js
 │   ├── register.js
 │   ├── login.js
+├── PHP/ # PHP scripts (login, logout, complaint handling)
 ├── Assets/
 │   ├── images/ # All images: certificates, banners, logos, etc.
 │   └── icons/ # All icons used in the site
