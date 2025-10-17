@@ -65,4 +65,4 @@ KrushiSahay/
 
 Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/krushi-sahay.git
+git clone https://github.com/JINAY2910/krushi-sahay.git
