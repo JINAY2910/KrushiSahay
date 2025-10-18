@@ -20,7 +20,7 @@
 
 ## 📁 Folder Structure
 ```
-KRUSHISAHAY/
+KrushiSahay/
 ├── index.html
 ├── dashboard.html
 ├── login.html
@@ -66,4 +66,4 @@ KRUSHISAHAY/
 
 Clone the repository:  
 ```bash
-git clone https://github.com/JINAY2910/krushi-sahay.git
+git clone https://github.com/JINAY2910/KrushiSahay.git
